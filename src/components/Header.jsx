@@ -28,13 +28,7 @@ export default function Header() {
         </nav>
       )}
 
-      <button
-        onClick={() => setToggleMenu(!toggleMenu)}
-        className="menu-button"
-        aria-label="Toggle navigation menu"
-        aria-controls="mobile-nav"
-        aria-expanded={toggleMenu}
-      >
+      <button onClick={() => setToggleMenu(!toggleMenu)} className="menu-button" >
         <i className="fa-solid fa-bars menu-icon"></i>
       </button>
     </header>

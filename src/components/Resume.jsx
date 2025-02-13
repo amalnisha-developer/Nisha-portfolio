@@ -15,10 +15,8 @@ export default function Resume() {
             <div className='resume-content'>
                 <h1 className='resume-title'>Resume</h1>
                 <p className='resume-text'>
-                    {config.line1} 
-                    <a href="https://www.canva.com/design/DAGANNoSjEk/jW5YZ042_6zyDy3irftQ6A/edit?utm_content=DAGANNoSjEk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
-                       download 
-                       className='resume-button'>
+                    {config.line1}  
+                    <a href="/resume.pdf" download="Amal_Nisha_Resume.pdf" className='resume-button'>
                         Download
                     </a>
                 </p>
