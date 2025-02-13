@@ -16,7 +16,7 @@ export default function Resume() {
                 <h1 className='resume-title'>Resume</h1>
                 <p className='resume-text'>
                     {config.line1}  
-                    <a href="/resume.pdf" download="Amal_Nisha_Resume.pdf" className='resume-button'>
+                    <a href="/Amal Nisha_Resume_developer.pdf" download="Amal_Nisha_Resume.pdf" className='resume-button'>
                         Download
                     </a>
                 </p>
