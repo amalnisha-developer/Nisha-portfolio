@@ -12,7 +12,6 @@ export default function Contact() {
                 <h1>Contact</h1>
                 <p className="contact-text">{config.line1}</p>
                 <p className="contact-info"> <strong style={{color:"#FFD700"}}>Email:</strong>amalnisha7705@gmail.com</p>
-                <p className="contact-info"><strong style={{color:"#FFD700"}}>Phone:</strong> 8525986468</p>
             </div>
         </section>
     );
