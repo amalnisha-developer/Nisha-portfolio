@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Header() {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  // const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <header className="header" id="home">
@@ -16,7 +16,7 @@ export default function Header() {
         </ul>
       </nav>
 
-      {toggleMenu && (
+      {/* {toggleMenu && (
         <nav className="mobile-nav">
           <ul onClick={() => setToggleMenu(false)} className="mobile-nav-links">
             <li><a href="/">Home</a></li>
@@ -30,7 +30,7 @@ export default function Header() {
 
       <button onClick={() => setToggleMenu(!toggleMenu)} className="menu-button" >
         <i className="fa-solid fa-bars menu-icon"></i>
-      </button>
+      </button> */}
     </header>
   );
 }
