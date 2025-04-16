@@ -4,7 +4,7 @@ import '../styles.css';
 
 export default function About() {
     const config = {
-        line1: 'Hi, My name is Amal Nisha. I am a Web developer. I build beautiful websites with React.js, Tailwind CSS, and Bootstrap.',
+        line1: 'Hi, My name is Amal Nisha. I am a Web developer. I build beautiful websites with React.js, and Tailwind CSS.',
         line2: 'I am proficient in frontend skills like React.js, HTML, CSS, JavaScript, Tailwind CSS, CSS3, and many more.',
         line3: 'I also have experience in cloud services, AWS, DevOps practices, Git, and GitLab.'
     };
